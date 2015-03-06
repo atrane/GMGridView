@@ -94,6 +94,7 @@
 
 - (void)layoutSubviews
 {
+    [super layoutSubviews];
     if(self.inFullSizeMode)
     {
         CGPoint origin = CGPointMake((self.bounds.size.width - self.fullSize.width) / 2, 
